@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>inptus</title>
+    <style>
+
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@800&display=swap');
+      body {
+        background-image: url(https://burst.shopifycdn.com/photos/perfect-yellow-flower.jpg?width=925&format=pjpg&exif=1&iptc=1);
+        background-size: cover;
+        background-position: top center;
+        text-align: center;
+      }
+
+      body {
+        font-family: sans-serif;
+        
+      }
+
+      #fonte {
+        font-family: 'Dancing Script', cursive;
+      }
+      #fonte2 {
+        font-family: 'Nunito', sans-serif; 
+
+      }
+
+      input {
+        outline: none;
+        
+      }
+form {
+    background: rgba(0, 0, 0, 0.7);
+    padding: 10px;
+    width: 300px;
+    margin: 0 auto;
+}
+
+      label {
+        cursor: pointer;
+        display: block;
+        font-style: italic;
+        color: red;
+      }
+
+
+    </style>
+  </head>
+  <body>
+    <form action="#" method="get" target="_blank" autocomplete="off">
+      <p style="color: red" id="fonte2" >O meu formulário</p>
+      <p>
+        <label id="fonte">Nome:</label>
+        <input type="text" id="nome" name="nomes" placeholder="Seu nome" />
+      </p>
+      <p>
+        <label id="fonte"> Email:</label>
+        <input type="text" id="nome" name="nomes" placeholder="Email" />
+      </p>
+      <p>
+        <label id="fonte">Telefone:</label>
+        <input type="text" id="nome" name="nomes" placeholder="Telefone" 
+        placeholder="Seu nome" required 
+        placeholder="Email" required
+        placeholder="Telefone" required/>
+      </p>
+
+      <p>
+        <label for="dev"> Sou um dev </label>
+        <input type="checkbox" id="dev" value="sim">
+        <label for="dev"> Sou um dev </label>
+        <input type="checkbox" id="dev" value="sim">     
+        <label for="dev"> Sou um dev </label>
+        <input type="checkbox" id="dev" value="sim">     
+     
+       </p>
+
+       <p>
+           <label>Genero: </label>
+        <label for="dev"> Masculino </label>
+        <input type="radio" id="dev" name="Genero" value="Masculino">
+        <label for="dev"> Feminino </label>
+        <input type="radio" id="dev" name="Genero" value="Feminino">     
+        <label for="dev"> Outro </label>
+        <input type="radio" id="dev" name="Genero" value="Outro"> 
+      </p>
+     
+       </p>
+
+
+      <p>
+        <button type="reset">Resete</button>
+        <button type="submit">Enviar</button>
+      </p>
+
+       
+    </form>
+  </body>
+</html>

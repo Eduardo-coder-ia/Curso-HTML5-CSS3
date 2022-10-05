@@ -1,0 +1,21 @@
+/*html, body {
+    height: 100%;
+} */
+
+/* Todas essas propriedades controlam o conteúdo   */
+.texto {
+    box-sizing: border-box;
+    display: block;
+    background: red;
+    width: 100%;
+    height: 100%;
+    max-width: 600px;
+    max-height: 500px;
+    min-height: 100px;
+    min-width: 0;
+    overflow: auto;
+    margin: 0px auto 50px auto;
+    padding: 50px;
+    border: 5px green;
+    border-style:solid
+}

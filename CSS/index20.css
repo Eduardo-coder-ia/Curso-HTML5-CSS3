@@ -1,0 +1,7 @@
+ul li::after {
+    content: ' - ';
+    background: red;
+    color: blue;
+    display: block;
+
+}

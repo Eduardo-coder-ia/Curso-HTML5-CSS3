@@ -1,0 +1,36 @@
+/* 
+ Style  ID  Classes, atributos e pseudo-classes   Elementos e pseudo-elemntos
+1       1    0                                     0
+0       0    1                                     0 
+0       1    1                                     0
+
+*/
+
+/*
+ Especificidade   
+empate
+atributo style
+!importante   
+                         Utilize as classes pra específicar            
+*/
+
+body#b.bclass p#p.p {
+    background: rgb(82, 14, 209) !important; /* Só usar o important no ultimo dos casos   */
+
+}
+
+p {
+    background: blue !important;
+}
+
+#p {
+    background: red;
+}
+
+#p.p {
+    background: yellow;
+}
+
+
+
+
