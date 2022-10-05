@@ -1,0 +1,26 @@
+p {
+    font-size: 24px;
+}
+
+
+
+p::first-letter {
+    font-size: 100px;
+    display:block;
+    float: left;
+    margin: 0 10px 10px 0;
+
+}
+
+p::first-line {
+    background: blue;
+    color: yellow;
+}
+
+p::selection {
+    background: black;
+    color: white
+}
+.form-field::placeholder {
+    color: red;
+}
